@@ -43,4 +43,5 @@ This thesis presents the design, development, and evaluation of a real-time emot
 The platform has two types of functioning modes: monomodal and multimodal emotion recognition. In the monomodal approach, FER is employed to infer the emotional state of the subject. On the other hand, the multimodal approach combines both FER and SER to provide deeper insights into the subject's emotional state.
 The system is designed as a probe of concept with a general purpose in mind. However, this work also proposes various applications in which the system could be integrated, and outlines the necessary adjustments required to meet the specific requirements of each use case. 
 Furthermore, ethical implications and the protection of personal data are addressed within this thesis.
-Key words: Facial Recognition, Facial Expression Recognition, Speech Emotion Recognition, Computer Vision, Edge Computing.
+
+*Key words*: Facial Recognition, Facial Expression Recognition, Speech Emotion Recognition, Computer Vision, Edge Computing.
