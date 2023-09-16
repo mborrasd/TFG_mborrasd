@@ -36,6 +36,7 @@ Folder “Scripts” contains the following folders, which in turn contain the f
     -	output.wav
     -	real_time_ser.py
     - ser_model.h5
+
 Note that project_to_database.py has not been uploaded to the repository due to security concerns.
 
 # Abstract
