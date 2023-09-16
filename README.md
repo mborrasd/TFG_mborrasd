@@ -23,19 +23,19 @@ Folder “Scripts” contains the following folders, which in turn contain the f
     -	face_taker.py
     -	face_train.py	
   *	Final
-    o	fer_model.h5
-    o	fer_prediction_module.py
-    o	haarcascade_frontalface_default.xml
-    o	main.py
-    o	output.wav
-    o	python_to_database.py
-    o	ser_model.h5
-    o	ser_prediction_module.py
-    o	project_database.xlsx
+    -	fer_model.h5
+    -	fer_prediction_module.py
+    -	haarcascade_frontalface_default.xml
+    -	main.py
+    -	output.wav
+    -	python_to_database.py
+    -	ser_model.h5
+    -	ser_prediction_module.py
+    -	project_database.xlsx
   *	SER
-    o	output.wav
-    o	real_time_ser.py
-    o	ser_model.h5
+    -	output.wav
+    -	real_time_ser.py
+    - ser_model.h5
 Note that project_to_database.py has not been uploaded to the repository due to security concerns.
 
 # Abstract
