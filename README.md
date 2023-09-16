@@ -1,5 +1,5 @@
 # TFG_mborrasd
-This repository contains all the notebooks, scripts and other relevant files of this thesis. 
+This repository contains all the notebooks, scripts and other relevant files of the thesis. 
 
 # Abstract
 This thesis presents the design, development, and evaluation of a real-time emotion recognition system for healthcare applications. It aims to remotely monitor patients' emotional states using Facial Expression Recognition (FER) and Speech Emotion Recognition (SER). The collected data is stored in a cloud-based database, allowing healthcare professionals to access real-time updates from anywhere. Additionally, the system integrates Facial Recognition (FR) to identify the patients, before emotion recognition, to enable data storage into separate profiles.
