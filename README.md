@@ -15,13 +15,13 @@ Folder “Notebooks” contains the following files:
 
 Folder “Scripts” contains the following folders, which in turn contain the following files:
   -	FER
-    o	fer_model.h5
-    o	haarcascade_frontalface_default.xml
-    o	real_time_FER.py
+    -	fer_model.h5
+    -	haarcascade_frontalface_default.xml
+    -	real_time_FER.py
   -	FR
-    o	face_recognition.py
-    o	face_taker.py
-    o	face_train.py	
+    -	face_recognition.py
+    -	face_taker.py
+    -	face_train.py	
   -	Final
     o	fer_model.h5
     o	fer_prediction_module.py
