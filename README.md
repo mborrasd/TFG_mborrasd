@@ -1,5 +1,42 @@
-# TFG_mborrasd
-This repository contains all the notebooks, scripts and other relevant files of the thesis. 
+# Design, Development, and Evaluation of a Real-Time Facial Expression and Speech Emotion Recognition System
+This repository contains all the notebooks, scripts and other relevant files of the thesis "Design, Development, and Evaluation of a Real-Time Facial Expression and Speech Emotion Recognition System".
+
+## Contents of the repository
+Folder “Notebooks” contains the following files:
+  -	convert_fer2013_to_images_and_landmarks.ipynb
+  -	dataset_exploration.ipynb
+  -	prepare_fer2013+.ipynb
+  -	train_cnn_c.ipynb
+  -	train_cnn_fer2013+.ipynb
+  -	train_cnn_fer2013.ipynb
+  -	train_ser.ipynb
+  -	train_svm_fer2013+.ipynb
+  -	train_svm_fer2013.ipynb
+
+Folder “Scripts” contains the following folders, which in turn contain the following files:
+  -	FER
+    o	fer_model.h5
+    o	haarcascade_frontalface_default.xml
+    o	real_time_FER.py
+  -	FR
+    o	face_recognition.py
+    o	face_taker.py
+    o	face_train.py	
+  -	Final
+    o	fer_model.h5
+    o	fer_prediction_module.py
+    o	haarcascade_frontalface_default.xml
+    o	main.py
+    o	output.wav
+    o	python_to_database.py
+    o	ser_model.h5
+    o	ser_prediction_module.py
+    o	project_database.xlsx
+  -	SER
+    o	output.wav
+    o	real_time_ser.py
+    o	ser_model.h5
+Note that project_to_database.py has not been uploaded to the repository due to security concerns.
 
 # Abstract
 This thesis presents the design, development, and evaluation of a real-time emotion recognition system for healthcare applications. It aims to remotely monitor patients' emotional states using Facial Expression Recognition (FER) and Speech Emotion Recognition (SER). The collected data is stored in a cloud-based database, allowing healthcare professionals to access real-time updates from anywhere. Additionally, the system integrates Facial Recognition (FR) to identify the patients, before emotion recognition, to enable data storage into separate profiles.
