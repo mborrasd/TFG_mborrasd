@@ -22,7 +22,7 @@ Folder “Scripts” contains the following folders, which in turn contain the f
     -	face_recognition.py
     -	face_taker.py
     -	face_train.py	
-  -	Final
+  *	Final
     o	fer_model.h5
     o	fer_prediction_module.py
     o	haarcascade_frontalface_default.xml
@@ -32,7 +32,7 @@ Folder “Scripts” contains the following folders, which in turn contain the f
     o	ser_model.h5
     o	ser_prediction_module.py
     o	project_database.xlsx
-  -	SER
+  *	SER
     o	output.wav
     o	real_time_ser.py
     o	ser_model.h5
