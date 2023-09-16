@@ -14,11 +14,11 @@ Folder “Notebooks” contains the following files:
   -	train_svm_fer2013.ipynb
 
 Folder “Scripts” contains the following folders, which in turn contain the following files:
-  -	FER
+  *	FER
     -	fer_model.h5
     -	haarcascade_frontalface_default.xml
     -	real_time_FER.py
-  -	FR
+  *	FR
     -	face_recognition.py
     -	face_taker.py
     -	face_train.py	
