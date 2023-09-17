@@ -39,6 +39,7 @@ Folder “Scripts” contains the following folders, which in turn contain the f
 Folder “Others” contains the following files:
   * project_database.xlsx
   * requirements.txt
+  * find_index.py
 
 Note that project_to_database.py has not been uploaded to the repository due to security concerns.
 
