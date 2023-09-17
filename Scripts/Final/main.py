@@ -98,7 +98,7 @@ while True:
     if mode == 1:
         
         # start data collection with monomodal prediction 
-        user_input = input("   - Please press the 'S' key to start collecting data: ")
+        user_input = input("   - Please press the 'S' key to start collecting data, or press 'Q' to quit the program: ")
         if user_input.upper() == 'S':
             collect_data = True
             print("   - Data collection is now running. Press 'C' + 'Ctrl' keys to stop:") 
@@ -153,6 +153,7 @@ while True:
                         
             # stop data collection
             except KeyboardInterrupt:
+                cap.release()
                 print("Data collection stopped.")
                 print('------------------------------------------------------------')
                 collect_data = False
@@ -160,10 +161,9 @@ while True:
             
         # press Q again to kill the program
         elif user_input.upper() == 'Q':
-            cap.release()
-            #stream.stop_stream()
-           # stream.close()
-           # p.terminate()
+            # stream.stop_stream()
+            # stream.close()
+            # p.terminate()
             print('The program has been stopped.')
             break            
                         
@@ -171,7 +171,7 @@ while True:
     else:
         
         # start data collection with multimodal prediction
-        user_input = input("   - Please press the 'S' key to start collecting data: ")
+        user_input = input("   - Please press the 'S' key to start collecting data, or press 'Q' to quit the program: ")
         if user_input.upper() == 'S':
             collect_data = True
             print("   - Data collection is now running. Press 'C' + 'Ctrl' keys to stop:") 
@@ -283,6 +283,10 @@ while True:
                  
             # stop data collection
             except KeyboardInterrupt:
+                cap.release()
+                stream.stop_stream()
+                stream.close()
+                p.terminate()
                 collect_data = False
                 print("Data collection stopped.")
                 print('------------------------------------------------------------')                
@@ -290,10 +294,6 @@ while True:
                     
         # press Q again to kill the program
         elif user_input.upper() == 'Q':
-            cap.release()
-            #stream.stop_stream()
-           # stream.close()
-           # p.terminate()
             print('The program has been stopped.')
             break
 
