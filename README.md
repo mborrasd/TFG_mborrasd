@@ -13,7 +13,7 @@ Folder “Notebooks” contains the following files:
   -	train_svm_fer2013+.ipynb
   -	train_svm_fer2013.ipynb
 
-Folder “Scripts” contains the following folders, which in turn contain the following files:
+Folder “Scripts” contains the following folders and files:
   *	FER
     -	fer_model.h5
     -	haarcascade_frontalface_default.xml
@@ -31,11 +31,12 @@ Folder “Scripts” contains the following folders, which in turn contain the f
     -	python_to_database.py
     -	ser_model.h5
     -	ser_prediction_module.py
-    -	project_database.xlsx
   *	SER
     -	output.wav
     -	real_time_ser.py
     - ser_model.h5
+  * project_database.xlsx
+  * requirements.txt
 
 Note that project_to_database.py has not been uploaded to the repository due to security concerns.
 
