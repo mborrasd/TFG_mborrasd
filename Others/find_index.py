@@ -1,3 +1,9 @@
+"""
+
+Find index of microphone
+
+"""
+
 import pyaudio
 
 p = pyaudio.PyAudio()
