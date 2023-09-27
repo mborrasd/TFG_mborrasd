@@ -52,4 +52,4 @@ The system is designed as a proof of concept with a general purpose in mind. How
 
 Finally, this thesis addresses the ethical and data protection implications associated with the use of this system.
 
-*Key words*: Facial Recognition (FR), Facial Expression Recognition (FER), Speech Emotion Recognition (SER), Embedded Systems, Internet of Medical Things (IoMT).
+*Key words*: Facial Recognition (FR), Facial Expression Recognition (FER), Speech Emotion Recognition (SER), Computer Vision, Embedded Systems, Internet of Medical Things (IoMT).
