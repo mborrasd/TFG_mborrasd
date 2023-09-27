@@ -45,8 +45,11 @@ Note that project_to_database.py has not been uploaded to the repository due to 
 
 # Abstract
 This thesis presents the design, development, and evaluation of a real-time emotion recognition system for healthcare applications. It aims to remotely monitor patients' emotional states using Facial Expression Recognition (FER) and Speech Emotion Recognition (SER) techniques. The collected data is stored in a cloud-based database, allowing healthcare professionals to access real-time updates from anywhere. Additionally, the system uses Facial Recognition (FR) to identify the patients before emotion recognition, to enable data storage into separate profiles.
+
 The system has two types of functioning modes: monomodal and multimodal emotion recognition. In the monomodal approach, FER is employed to infer the emotional state of the subject. On the other hand, the multimodal approach combines both FER and SER to provide deeper insights into the subject's emotional state.
+
 The system is designed as a proof of concept with a general purpose in mind. However, this work also proposes various applications in which the system could be integrated, and outlines the adjustments required to meet the specific needs of each use case. 
+
 Finally, this thesis addresses the ethical and data protection implications associated with the use of this system.
 
 *Key words*: Facial Recognition (FR), Facial Expression Recognition (FER), Speech Emotion Recognition (SER), Embedded Systems, Internet of Medical Things (IoMT).
